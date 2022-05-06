@@ -1,6 +1,11 @@
-hola mundo AAPQA 1
-  dfds  
-    dsd;
-
-
-HOLA EQUIPO
+node
+{
+stage('checkout')
+{
+sh 'Descargar codigo fuente'
+}
+stage('build')
+{
+sh ' Compilando proyecto taller1'
+}
+}
