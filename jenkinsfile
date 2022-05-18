@@ -1,6 +1,11 @@
-hola mundo AAPQA 1
-  dfds  
-    dsd;
-
-
-cambio de desarrollo a QA
+node
+{
+stage('checkout')
+{
+sh 'Descargar codigo fuente'
+}
+stage('build')
+{
+sh ' Compilando proyecto taller1'
+}
+}
